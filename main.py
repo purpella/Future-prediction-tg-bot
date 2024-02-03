@@ -4,8 +4,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.filters import Command, CommandStart
 from aiogram.types import Message
 from random import choices
+from tooken import BOT_TOKEN
 
-BOT_TOKEN = '6865223416:AAGJb7vGYnXkIQrKr744H_8jhy6F34SUm_M'
 
 prediction = ['Насколько я понимаю, да',
               'Спросите еще раз позже.',
